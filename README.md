@@ -1,4 +1,5 @@
-# mochapi
+## TypeScript Setup for REST API Tests
+---
 
 ### Installation
 > npm i
