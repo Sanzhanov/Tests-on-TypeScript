@@ -1,8 +1,8 @@
-const axios = require('axios');
-const assert = require('chai').assert;
+import axios from 'axios'
+import { assert }  from 'chai'
 
 describe('price data', () => {
-    let data;
+    let data: any;
 
     before(async () => {
         await axios.get('https://api-pub.bitfinex.com/v2/ticker/tBTCUSD')
